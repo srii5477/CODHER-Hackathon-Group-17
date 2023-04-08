@@ -1,0 +1,129 @@
+!DOCTYPE html>
+<html>
+<head>
+  <title> Easiest Way to Find the Best Courses Online!      </title>
+</head>
+<body>
+  <h3 style="color:purple">Enter your preferences and get the links to the best rated courses online!</h3>
+<form>
+  <label for="fques">Are you a student/tutor?</label><br>
+  <input type="radio" id="student" name="stutut" value="Student">
+  <label for="Student">Student</label><br>
+  <input type="radio" id="tutor" name="stutut" value="Tutor">
+  <label for="Tutor">Tutor</label><br><br>
+  <label for="secques">Enter your name and age :</label><br>
+  <input type="text" id="name" name="name" value="Name"><br>
+  <input type="text" id="Age" name="age" value="Age"><br><br>
+  <script type = "text/JavaScript">
+   const level = prompt("Are you a high-schooler or college student").toLowerCase();
+
+if (level == "high-schooler") {
+   const subject= prompt("Select a subject-> 1:Maths 2:Physics 3:Chemistry 4:Programming ");
+   if(subject==1){
+       const subtopic1= prompt("Select a subtopic: 1-Calculus 2-Algebra 3-Geometry ");
+       const lang1=prompt("Do you prefer English or a regional language? ");
+       console.log("The ML algorithm will generate results based on users' choices.");
+           if(subtopic1==1 && lang1=="English"){
+             console.log("www.coursera.org/learn/single-variable-calculus:::127046 enrolled and 1967 reviews::Best possible course to suit your preferences.");
+             console.log("Top comment from the course page: Very well structured for a refresher course. Thank you Professor Ghrist for your effort in putting this course together. A little additional outside research was required but well worth the effort.")
+             //feedback can be taken at the end, wherein an additional loop can be added. If the user isn't satisfied, the loop can take the user to another link stored in the backend database.
+           }
+    }
+      else if(subject==2){
+          const subtopic2= prompt("Select a subtopic: 1-Quantum Physics 2-Astronomy 3-Thermodynamics");
+          const lang2=prompt("Do you prefer English or a regional language?");
+
+          console.log("The ML algorithm will generate results based on users' choices.");
+          if(subtopic2==2 && lang2=="English"){
+              console.log(" https://www.skillshare.com/en/classes/The-universe-as-we-know-it/1207789290");
+              console.log("456 students enrolled. 86% say the class exceeded their expectations.");
+              console.log("Summary : In just under 2 hours, you can cover a whole range of topics from the different planets to cosmic definitions and black holes. This short but detailed course is great for anyone looking to further their interest in astronomy.");
+          }
+         
+      }
+      else if(subject==3){
+          const subtopic3= prompt("Select a subtopic: 1-Nuclear Chemistry 2-Periodicity 3-Thermochemistry ");
+          const lang3=prompt("Do you prefer English or a regional language? ");
+          console.log("The ML algorithm will generate results based on users' choices.");
+          if(subtopic3==1 && lang3=="Hindi"){
+               console.log("https://edurev.in/studytube/NUCLEAR-CHEMISTRY/8d1d1ddf-dd2f-48f9-a9af-a001a23f9c02_p");
+               console.log("1.9K Views & a 4.8/5 Rating.")
+               console.log("Top comment from Quora: EduRev is a great app for entrance preparation. It doesn't only offer you good content but also guides you on how to study and prepare through that content.")
+          }
+      }
+      else if(subject==4){
+          const subtopic4= prompt("Select a subtopic: 1-C language  2-Python language 3-LISP(for AI) ");
+          const lang4=prompt("Do you prefer English or a regional language? ");
+          console.log("The ML algorithm will generate results based on users' choices.");
+          if(subtopic4==3 && lang4=="English"){
+               console.log("https://www.udemy.com/course/lisp-programming-language/");
+               console.log("Summary :Common Lisp programming: from novice to effective developer.Learn the Lisp language, the tools and the ecosystem to become a productive and happy programmer.");
+               console.log("513 students enrolled, Average rating of 3.8");
+               console.log("Most popular comment from the page:A very nice course! It gives us a very good start to the large Common Lisp world. By not enter into some details said as quite easy ones, it pushes us to go further.So, thank you. I can't wait next ones ;)");
+               console.log("Many users reported facing an audio and poor resolution issue.");
+          }
+      }  
+}
+
+
+
+   if (level == "high-schooler") {
+    const subject= prompt("Select a subject-> 1:Maths 2:Physics 3:Biology 4:Chemistry ");
+    if(subject=="Maths"){
+          const subtopic1= prompt("Select a subtopic: 1-Calculus 2-Algebra 3-Geometry");
+          const lang1=prompt("Do you prefer English or a regional language?");
+          console.log("The ML algorithm will generate results based on users' choices.");
+          console.log("www.coursera.org/learn/single-variable-calculus:::127046 enrolled and 1967 reviews::Best possible course to suit your preferences.");
+    }
+    else if(subject=="Physics"){
+          const subtopic2= prompt("Select a subtopic: 1-Quantum Physics 2-Classical Mechanics 3-Thermodynamics 4-Electronics & Electrical");
+          const lang2=prompt("Do you prefer English or a regional language?");
+
+          console.log("The ML algorithm will generate results based on users' choices.");
+         
+   }
+   else if(subject=="Chemistry"){
+          const subtopic3= prompt("Select a subtopic: 1-Nuclear Chem 2-Atomic Chem 3-Periodicity 4-Thermochem");
+          console.log("Do you prefer English or a regional language?");
+          console.log("The ML algorithm will generate results based on users' choices.");
+ 
+
+
+}}
+if (level == "college") {
+    const subject= prompt("Select a subject-> 1:Business 2:Engineering 3:Arts");
+    if(subject==1){
+          const subtopic1= prompt("Select a subtopic: 1-Business Management 2-Marketing");
+          const lang1=prompt("Do you prefer English or a regional language? ");
+          console.log("The ML algorithm will generate results based on users' choices.");
+          if(subtopic1==1 && lang1=="English"){
+               console.log("https://www.coursera.org/projects/business-analysis-process-management :::99,593 enrolled and 1,851 reviews::Best possible course to suit your preferences.");
+               console.log("https://www.coursera.org/specializations/business-english-speakers :::52,748 enrolled and 807 reviews::");
+          if(subtopic1==2 && lang1=="English"){
+               console.log("https://www.skillshare.com/en/classes/Social-Media-Marketing-Top-Tips-for-Growing-Your-Followers-Going-Viral/2147147253?via=search-layout-grid :::95153 enrolled and 41% say the class exceeded their their expectations::Best possible course to suit your preferences.");
+               console.log("https://www.udemy.com/course/digital-marketing-guide/ :::82,845 enrolled and 15,986 reviews:::"); }
+    }
+    else if(subject==2){
+          const subtopic2= prompt("Select a subtopic: 1-Engineering mechanics 2-Graphic Designing");
+          const lang2=prompt("Do you prefer English or a regional language?");
+          console.log("The ML algorithm will generate results based on users' choices.");
+          if(subtopic2==1 && lang1=="English"){
+               console.log("https://www.coursera.org/specializations/modernrobotics :::22,704 enrolled and 835 reviews::Best possible course to suit your preferences.");
+               console.log("https://www.coursera.org/specializations/introduction-to-mechanics :::5,064 enrolled and 69 reviews::");
+          if(subtopic2==2 && lang1=="English"){
+               console.log("https://www.coursera.org/learn/fundamentals-of-graphic-design :::678,293 enrolled and 16,148 reviews::Best possible course to suit your preferences."");
+               console.log("https://www.coursera.org/specializations/graphic-design :::316,032 enrolled and 15,165 reviews:::"); }}
+    else if(subject==3){
+          const subtopic3= prompt("Select a subtopic: 1-Animation 2-Photography");
+          const lang2=prompt("Do you prefer English or a regional language?");
+          console.log("The ML algorithm will generate results based on users' choices.");
+          if(subtopic3==1 && lang1=="English"){
+               console.log("https://www.udemy.com/course/learn-animation/ ::5366 enrolled and 1095 reviews::Best possible course to suit your preferences.");
+               console.log("https://www.skillshare.com/en/classes/Beginners-Guide-to-Adobe-After-Effects-2023-Learn-Motion-Graphics/2017028536?via=search-layout-grid :::4594 enrolled and 74% say the class exceeded their expectations.");
+          if(subtopic3==2 && lang1=="English"){
+               console.log("https://www.udemy.com/course/jp-nikon-dslr-for-beginners/ :::31,504 enrolled and 31,504 reviews::Best possible course to suit your preferences."");
+               console.log("https://www.skillshare.com/en/classes/Beginner%E2%80%99s-Guide-to-Retouching-Old-Photographs-in-Adobe-Photoshop/890163669 ::: 2,289 enrolled and 59% say the class exceeded their expectations."); }}}
+
+
+   
+  </script>
